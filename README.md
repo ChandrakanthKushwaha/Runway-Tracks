@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -29,6 +29,129 @@
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
       padding: 40px;
+    }
+    .product {
+      background: #1a1a1a;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .product:hover {
+      transform: scale(1.05);
+    }
+    .product img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
+    .product h3 {
+      margin: 15px 0 5px;
+      font-size: 22px;
+    }
+    .product p {
+      font-size: 18px;
+      color: gold;
+      font-weight: bold;
+    }
+    .button {
+      display: inline-block;
+      background: gold;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 25px;
+      margin: 10px 5px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .button:hover {
+      background: #ffcc00;
+    }
+    .referral {
+      background: #111;
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #000;
+      color: #ccc;
+      font-size: 15px;
+    }
+    footer a {
+      color: gold;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Runway Tracks</h1>
+    <p>Premium Track Pants at Just ₹599</p>
+    <p>Refer & Earn ₹100 on Every Referral!</p>
+    <p>📞 Contact: <a href="tel:9502907095" style="color:gold;">9502907095</a></p>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="track1.png" alt="Track Pants 1">
+      <h3>Runway Tracks</h3>
+      <p>₹599</p>
+      <a href="tel:9502907095" class="button">📞 Call to Order</a>
+      <a href="https://wa.me/919502907095?text=Hi%20I%20want%20to%20order%20Track%20Pants" target="_blank" class="button">💬 WhatsApp</a>
+    </div>
+
+    <div class="product">
+      <img src="track2.png" alt="Track Pants 2">
+      <h3>Runway Tracks</h3>
+      <p>₹599</p>
+      <a href="tel:9502907095" class="button">📞 Call to Order</a>
+      <a href="https://wa.me/919502907095?text=Hi%20I%20want%20to%20order%20Track%20Pants" target="_blank" class="button">💬 WhatsApp</a>
+    </div>
+
+    <div class="product">
+      <img src="track3.png" alt="Track Pants 3">
+      <h3>Runway Tracks</h3>
+      <p>₹599</p>
+      <a href="tel:9502907095" class="button">📞 Call to Order</a>
+      <a href="https://wa.me/919502907095?text=Hi%20I%20want%20to%20order%20Track%20Pants" target="_blank" class="button">💬 WhatsApp</a>
+    </div>
+    
+    <div class="product">
+      <img src="track4.png" alt="Track Pants 4">
+      <h3>Runway Tracks</h3>
+      <p>₹599</p>
+      <a href="tel:9502907095" class="button">📞 Call to Order</a>
+      <a href="https://wa.me/919502907095?text=Hi%20I%20want%20to%20order%20Track%20Pants" target="_blank" class="button">💬 WhatsApp</a>
+    </div>
+
+    <div class="product">
+      <img src="track5.png" alt="Track Pants 5">
+      <h3>Runway Tracks</h3>
+      <p>₹599</p>
+      <a href="tel:9502907095" class="button">📞 Call to Order</a>
+      <a href="https://wa.me/919502907095?text=Hi%20I%20want%20to%20order%20Track%20Pants" target="_blank" class="button">💬 WhatsApp</a>
+    </div>
+  </section>
+
+  <section class="referral">
+    🎉 Refer Your Friends & Earn ₹100 on Every Referral!
+  </section>
+
+  <footer>
+    📞 Call: <a href="tel:9502907095">9502907095</a> | 💬 WhatsApp: 
+    <a href="https://wa.me/919502907095" target="_blank">Chat Now</a> <br>
+    © 2025 Runway Tracks. All rights reserved.
+  </footer>
+
+</body>
+</html>     padding: 40px;
     }
     .product {
       background: #1a1a1a;
